@@ -1,0 +1,30 @@
+{
+  "name": "medialounge/disabledproductsredirect",
+  "description": "A Magento 2 module that redirects disabled products to their respective first category.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jamie Slater",
+      "homepage": "http://google.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~7.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MediaLounge\\DisabledProductsRedirect\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ikudos/magento-test"
+    }
+  ]
+  }
